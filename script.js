@@ -11,7 +11,7 @@ async function buscarCitacaoKanye() {
         textoCitacao.textContent = `"${citacao}"`;
 
 
-        const tweetText = encodeURIComponent(`"${citacao}" - Ye`);
+        const tweetText = encodeURIComponent(`"${citacao}" - Kanye da Sorte`);
         const tweetURL = " "; 
 
 
