@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanye da Sorte</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Inclua o Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <style>
         body {
@@ -13,8 +13,8 @@
             text-align: center;
             background-color: #f0f0f0;
             padding: 20px;
-            background-image: url('planodefundo.png');
-            background-repeat: no-repeat;
+            background: url('planodefundo.jpg') no-repeat center center fixed;
+            background-size: cover;
         }
 
         #container-citacao {
@@ -24,6 +24,12 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             max-width: 400px;
             margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: bold;
         }
 
         #texto-citacao {
@@ -31,7 +37,7 @@
             margin-bottom: 10px;
         }
 
-        #botao-obter-citacao {
+        #botao-obter-citacao, #botao-compartilhar-twitter {
             background-color: #007bff;
             color: #fff;
             border: none;
@@ -39,6 +45,8 @@
             font-size: 16px;
             border-radius: 5px;
             cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
         }
     </style>
 </head>
